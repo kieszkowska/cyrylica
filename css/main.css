@@ -1,0 +1,111 @@
+body {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    background-color: #222222 !important;
+}
+
+.container {
+    background-color: #222;
+    min-height: 100vh;
+    color: white;
+    overflow-x: hidden;
+}
+
+.letter > .card {
+    margin: 2em auto;
+    width: 180px;
+    height: 180px;
+    border-width: 4px !important;
+    background-color: #222;
+}
+
+#letter {
+    margin: 0.25em 0;
+}
+
+#alphabet {
+    width: 90%;
+    margin: 2em auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    margin: 0.4em;
+    line-height: 15px;
+    font-size: 15px;
+    border: 1px solid #17A2B8;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.key:not(.smaller) {
+    font-size: 25px;
+}
+
+.key:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.button {
+    margin-top: 6em;
+}
+
+@media screen and (max-width: 1180px) {
+    .letter > .card {
+        margin: 1em auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    .letter .card h5 {
+        font-size: 5em;
+    }
+
+    .button {
+        margin-top: 4em;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .letter > .card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .letter .card h5 {
+        font-size: 3em;
+    }
+
+    .key {
+        margin: 0.2em;
+    }
+
+    .button {
+        margin-top: 2.4em;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .key {
+        width: 50px;
+        height: 50px;
+        line-height: 15px;
+        font-size: 15px;
+    }
+
+    .key:not(.smaller) {
+        font-size: 20px;
+    }
+}
