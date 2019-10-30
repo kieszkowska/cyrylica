@@ -1,5 +1,5 @@
 body {
-    -webkit-user-select: none; /* Safari */        
+    -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
@@ -21,8 +21,14 @@ body {
     background-color: #222;
 }
 
+#letterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #letter {
-    margin: 0.25em 0;
+    margin: 0.2em 0;
 }
 
 #alphabet {
