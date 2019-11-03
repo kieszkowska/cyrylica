@@ -90,7 +90,7 @@ body {
     }
 
     .letter .card h5 {
-        font-size: 3em;
+        transform: scale(.5);
     }
 
     .key {
