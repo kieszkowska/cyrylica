@@ -2,9 +2,12 @@ const cacheName = 'cyrillic';
 const precacheResources = [
     './',
     'index.html',
+    'favicon.ico',
     'js/main.js',
     'css/main.css',
-    'img/flag.png',
+    'img/icon-192.png',
+    'img/icon-512.png',
+    'img/apple-touch-icon.png',
     'bootstrap/bootstrap.min.css',
     'manifest.json',
 ];
