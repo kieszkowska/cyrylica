@@ -1,4 +1,4 @@
 # Cyrylica
-Cyrillic learning app
+Cyrillic learning progressive web app
 
-[Demo](https://kieszkowska.it/rosyjski/)
+[Demo](https://cyrylica.kieszkowska.it/)
